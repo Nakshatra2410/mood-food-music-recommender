@@ -42,7 +42,11 @@ The system combines NLP-based mood analysis, FastAPI backend services, and a Rea
 
 # 📸 Screenshots
 
-_Add screenshots of your application here._
+![Home](image.png)
+![sample](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 Example:
 - Home Page
@@ -97,7 +101,7 @@ pip install -r requirements.txt
 Run backend server:
 
 ```bash
-uvicorn backend.main:app --reload
+uvicorn backend.api.main:app --reload
 ```
 
 Backend runs on:
